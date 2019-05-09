@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#" method="GET" target="_blank">            
+            <div class="header">
+                <span>Contact manager</span>
+                <span>More actions</span>
+            </div>
+            <div class="main">
+                <div class="left">
+                    <div class="input-list">
+                        <span class="red" @after>First name:</span>
+                        <input type="text" title="First Name"/>
+                    </div>
+                    <div class="input-list">
+                        <span class="red" @after>Last name:</span>
+                        <input type="text" title="First Name"/>
+                    </div>
+                    <div class="input-list">
+                        <span>Address</span>
+                        <textarea cols="26" rows="6" style="resize: none;"></textarea>
+                    </div>
+                    <div class="input-list">
+                        <span>City</span>
+                        <input type="text">
+                    </div>
+                    <div class="input-list">
+                        <span>State</span>
+                        <select>
+                            <option>select</option>
+                            <option>select2</option>
+                        </select>
+                    </div>
+                    <div class="input-list">
+                        <span>Zip</span>
+                        <input type="text" title="zip">
+                    </div>
+                    <div class="input-list">
+                        <span>Home Phone</span>
+                        <input id="short" type="text" title="phone" width="20">
+                    </div>
+                    <div class="input-list">
+                        <span class="red" @after>Work Phone</span>
+                        <input type="text" title="phone">
+                    </div>
+                    <div class="input-list">
+                        <span>Fax Number</span>
+                        <input id="short" type="text" title="number">
+                    </div>
+                    <div class="input-list">
+                        <span>Website</span>
+                        <div  class="input-list2">
+                            <div class="input-list">
+                                <span >URL</span>
+                                <input type="text">
+                            </div>
+                            <div class="input-list">
+                                <span>Link name</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-list">
+                        <span class="red" @after>Email Address</span>
+                        <input type="text" title="number">
+                    </div> 
+                </div>
+
+                <div class="right">
+                    <div class="list-right">
+                        <span>When is the best time to contact you?</span>
+                        <div class="list-box">
+                            <label><input type="radio" name="time" value="morning">Morning</label>
+                            <label><input type="radio" name="time" value="afternoon">Afternoon</label>
+                            <label><input type="radio" name="time" value="evening">Evening</label>
+                        </div>
+                    </div>
+                    <div class="list-right">
+                        <span>When is the best way to contact you?</span>
+                        <div class="list-box">
+                            <label><input type="radio" name="time" value="phone">Phone</label>
+                            <label><input type="radio" name="time" value="email">Email</label>
+                            <label><input type="radio" name="time" value="fax">Fax</label>
+                        </div>
+                    </div>
+                    <div class="input-list">
+                        <span>Message</span>
+                        <textarea cols="24" rows="6" style="resize: none;"></textarea>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer">
+                <input class="button" type="submit" name="submit" value="Submit">
+                <input class="button" type="reset" name="reset" value="Reset">
+            </div>
+        </form>
+    </div>  
+</body>
+</html>
